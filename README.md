@@ -36,7 +36,7 @@ Para usar outro CSV com o mesmo formato:
 python app.py --input caminho/vendas.csv --pdf --output outputs/minha-analise
 ```
 
-Sem `--pdf`, a análise funciona sem instalar pacotes adicionais. Sempre gera `report.md`, `report.json` e `cleaned.csv`. As linhas rejeitadas e os motivos estão no relatório. O [Ritmo](https://github.com/jcminozzi/ritmo) pode ler `report.json` e responder a perguntas por comandos de bot.
+Sem `--pdf`, a análise funciona sem instalar pacotes adicionais. Sempre gera `report.md`, `report.json` e `cleaned.csv`. As linhas rejeitadas e os motivos estão no relatório. Outro estudo de dados é o [Ritmo](https://github.com/jcminozzi/ritmo), um chatbot que consulta sua própria base de despesas financeiras.
 
 ## Onde entra a IA
 
@@ -82,3 +82,4 @@ Praticar a mesma análise com pandas e criar uma tela para selecionar o CSV. Ant
 Projeto pessoal de João Carlos Minozzi, construído com assistência de IA para estudo e portfólio de estágio. Não representa implantação em empresa.
 
 Referências: [sqlite3](https://docs.python.org/3/library/sqlite3.html) e [Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs).
+
